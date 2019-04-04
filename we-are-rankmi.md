@@ -1,4 +1,4 @@
-## Todos somos Rankmi.
+## We are Rankmi
 
 Rankmi es una empresa que se ha formado con una fuerte cultura basada en la cooperación, el trabajo en equipo, con enfoque a que cada integrante debe ser responsable y con la idea de que cada persona debe gestionar su trabajo de manera autónomo.
 
@@ -12,9 +12,9 @@ Acá encontrarás mucho talento. Trabajarás con personas absurdamente talentosa
 
 No somos muy amigos de los grandes manifiestos técnicos que nos indican cómo hacer las cosas. Lo mejor es experimentar y definir nuestro propio estilo. Tenemos influencias de varias metodologías y seguimos las mejores prácticas en varios aspectos. Hacemos las cosas al estilo Rankmi. 
 
+###[Nuestros valores](our-core-values.md)
 
 ### Tu primer día en Rankmi.
-
 
 
 Si este es tu primer día en Rankmi, hay algunas cosas que deberías saber :D 
@@ -23,3 +23,4 @@ Si este es tu primer día en Rankmi, hay algunas cosas que deberías saber :D
 * Tu tribu es tu equipo. Nos gusta pensar que la tribu es una forma de organizarnos para sobrevivir ante el apocalipsis zombie. Cada tribu tiene todos los perfiles que necesita para poder llevar adelante la gran tarea de escalar el producto.
 * Todos en el equipo de producto estarán siempre dispuestos a apoyarte y darte soluciones a tus problemas/dudas. No tengas miedo de consultar, incluso varias veces lo mismo. 
 * Puedes usar las herramientas que gustes. No te preocupes por lo que cada uno usa. Tu ponte cómodo, baja lo que usas frecuentemente y vamos hacia adelante ;)
+
