@@ -12,7 +12,7 @@ Acá encontrarás mucho talento. Trabajarás con personas absurdamente talentosa
 
 No somos muy amigos de los grandes manifiestos técnicos que nos indican cómo hacer las cosas. Lo mejor es experimentar y definir nuestro propio estilo. Tenemos influencias de varias metodologías y seguimos las mejores prácticas en varios aspectos. Hacemos las cosas al estilo Rankmi. 
 
-###[Nuestros valores](our-core-values.md)
+### [Nuestros valores](our-core-values.md)
 
 ### Tu primer día en Rankmi.
 
