@@ -1,6 +1,6 @@
-# Gestión de las tareas
+## Gestión de las tareas
 
-## Cómo completar una tarea
+### Cómo completar una tarea
 Las tareas deben ser reportadas siguiendo las siguientes reglas:
 
 * Descripción de la tarea general. 
@@ -9,7 +9,7 @@ Las tareas deben ser reportadas siguiendo las siguientes reglas:
 * Listado de PR tanto de app como de API según corresponda.
 * tags que permitan identificarlo (Si no la tiene nosotros debemos agregarlo).
 
-## Gestión del flujo  en Youtrack.
+### Gestión del flujo  en Youtrack.
 
 En youtrack existen 9 columnas
 * Por hacer
@@ -38,12 +38,12 @@ El siguiente flujo se aplica de la siguiente manera:
 9. En caso contrario se especificará en el **Pull Request** por que ha fallado adjuntando evidencia.
 10. Si la tarea está en **Aceptado** puede pasar a producción en cualquier momento.
 
-## Manejo de bugs.
+### Manejo de bugs.
 
 Un bug siempre tiene prioridad por sobre las tareas y a partir de eso se debe priorizar cada bug en función de lo crítico que ha sido reportado.
 El manejo del flujo es igual al de una tarea, solo que el **Pull request** asociado no sale de **development** sino que sale directamente de **master**
 
-## Complejidad de las tareas.
+### Complejidad de las tareas.
 
 Las tareas tienen distintos niveles de complejidad y es esta complejidad que define la cantidad de horas de desarrollo y prueba que una tarea debe tener. 
 La complejidad es definida en conjunto con el project manager y en función del alcance. Algunos ejemplos a continuación:

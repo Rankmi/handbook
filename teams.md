@@ -1,0 +1,1 @@
+## Cómo organizamos nuestros equipos
