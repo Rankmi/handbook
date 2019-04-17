@@ -21,5 +21,6 @@ Si quieres saber más [We are Rankmi](we-are-rankmi.md)
 [Cómo se componen los equipos]
 [Cómo gestionamos nuestro trabajo]
 [Cómo mantenemos la calidad de nuestro código]
-
+[Cómo programamos]
+[Cómo mantenemos la calidad de nuestro código]
 
