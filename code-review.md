@@ -1,3 +1,5 @@
+## Code Review
+
 El code review es una actividad central en el proceso de desarrollo. 
 
 El proceso es el siguiente:
@@ -11,3 +13,7 @@ El proceso es el siguiente:
 
 
 Para el caso de las tareas, el code review debe tener en cuenta las buenas practicas de código detalladas en el Home de la wiki.
+
+
+ 
+

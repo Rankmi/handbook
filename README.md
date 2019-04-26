@@ -16,9 +16,9 @@ Algunas cosas importantes sobre nosotros que debes saber:
 * Cada vez que empezamos un nuevo sprint vamos al cine a ver la película que le da nombre a nuestro sprint.
 * Nuestros equipos de trabajo están divididos en tribus, cada una con su propia identidad y totalmente autosuficiente para salvarse en una eventual crísis zombie!
 
-Si quieres saber más [We are Rankmi](we-are-rankmi.md)
+* Para conocer más de Rankmi =>  [We are Rankmi](we-are-rankmi.md)
+* Como organizamos nuestros equipos => [Nuestras tribus](teams.md)
 
-[Cómo se componen los equipos]
 [Cómo gestionamos nuestro trabajo]
 [Cómo mantenemos la calidad de nuestro código]
 [Cómo programamos]
