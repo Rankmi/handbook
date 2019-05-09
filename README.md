@@ -2,7 +2,7 @@
 
 ### Algo de historia 
 
-En Rankmi llevamos más de 4 años re-inventando la forma de hacer gestión de personas en Chile y Latam. Nuestro equipo de producto ha crecido desde 2 personas a más de 30 (y continuamos reclutando ;)). Hemos alcanzado grandes metas y resuelto problemas gigantes. Nuestro sello es la pasión por el servicio al cliente, el trabajo en equipo y las ganas de entregar nuestro mayor esfuerzo a nuestros más de *500.000 usuarios*.
+En Rankmi llevamos más de 4 años re-inventando la forma de hacer gestión de personas en Chile y Latam. Nuestro equipo de producto ha crecido desde 2 personas a más de 70 (y continuamos reclutando ;)). Hemos alcanzado grandes metas y resuelto problemas gigantes. Nuestro sello es la pasión por el servicio al cliente, el trabajo en equipo y las ganas de entregar nuestro mayor esfuerzo a nuestros más de *500.000 usuarios*.
 
 ### Nuestra identidad
 
