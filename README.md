@@ -10,11 +10,6 @@ En Rankmi tenemos una forma muy especial de hacer las cosas. No es algo sacado d
 
 Acá encontrarás todo lo que necesitas saber para saber que pensamos, cómo hacemos las cosas y cómo hemos llevado adelante el proceso de escalar nuestro equipo.
 
-Algunas cosas importantes sobre nosotros que debes saber:
-
-* El nombre de nuestros sprints está basado en la película de superhéroes del momento
-* Cada vez que empezamos un nuevo sprint vamos al cine a ver la película que le da nombre a nuestro sprint.
-* Nuestros equipos de trabajo están divididos en tribus, cada una con su propia identidad y totalmente autosuficiente para salvarse en una eventual crísis zombie!
 
 * Para conocer más de Rankmi =>  [We are Rankmi](we-are-rankmi.md)
 * Como organizamos nuestros equipos => [Nuestras tribus](teams.md)
