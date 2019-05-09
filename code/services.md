@@ -30,3 +30,5 @@ ActiveMenu.new(rkm_module:RankmiModule.find(2), type:Menu::GENERAL_MENU).build
 
 ```
 
+Los servicios deben estar dentro de la carpeta ```app/services``` y cada uno especificando el scope en el que será construido.
+

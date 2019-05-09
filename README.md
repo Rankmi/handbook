@@ -18,9 +18,6 @@ Algunas cosas importantes sobre nosotros que debes saber:
 
 * Para conocer más de Rankmi =>  [We are Rankmi](we-are-rankmi.md)
 * Como organizamos nuestros equipos => [Nuestras tribus](teams.md)
+* Cómo gestionamos nuestro trabajo => [Nuestros sprint] (sprint.md)
 
-[Cómo gestionamos nuestro trabajo]
-[Cómo mantenemos la calidad de nuestro código]
-[Cómo programamos]
-[Cómo mantenemos la calidad de nuestro código]
 
