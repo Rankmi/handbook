@@ -62,7 +62,7 @@ Para inicializar un hotfix, ejecutan el siguiente comando:
 
 *¿Quién lo debe hacer?* **El developer**
 
-donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. En el caso de un hotfix, **y** siempre será el id de la tarea en youtrack. El id es el número que viene después de la sigla RKM-XXXX.
+donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. En el caso de un hotfix, **z** siempre será el id de la tarea en youtrack. El id es el número que viene después de la sigla RKM-XXXX.
 
 Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests y tengamos la tarea aprobada, se ejecuta el siguiente comando:
 
