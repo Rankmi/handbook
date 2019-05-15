@@ -59,9 +59,10 @@ Para inicializar un hotfix, ejecutan el siguiente comando:
 
     git hf hotfix start x.y.z
 
+
 *¿Quién lo debe hacer?* **El developer**
 
-donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. Un hotfix siempre debe aumentar en 1 el valor de z (si la última versión de la app es: 3.1.1, nuestra hotfix debe ir con la versión 3.1.2; si es 43.0.0, debemos usar la versión 43.0.1 )
+donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. En el caso de un hotfix, **y** siempre será el id de la tarea en youtrack. El id es el número que viene después de la sigla RKM-XXXX.
 
 Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests y tengamos la tarea aprobada, se ejecuta el siguiente comando:
 
