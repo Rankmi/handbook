@@ -108,13 +108,3 @@ Una vez que se hayan hecho las modificaciones necesarias (bump de la versión en
 
     # Ejemplo:
     git hf release finish 3.19.0
-
-
-
-### Utilidades GIT
-
-`git log --graph`
-`git commit --amend --no-edit`
-
-
-Más utilidades en la carpeta **Utils**
