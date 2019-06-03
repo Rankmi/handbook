@@ -59,9 +59,10 @@ Para inicializar un hotfix, ejecutan el siguiente comando:
 
     git hf hotfix start x.y.z
 
+
 *¿Quién lo debe hacer?* **El developer**
 
-donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. Un hotfix siempre debe aumentar en 1 el valor de z (si la última versión de la app es: 3.1.1, nuestra hotfix debe ir con la versión 3.1.2; si es 43.0.0, debemos usar la versión 43.0.1 )
+donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. En el caso de un hotfix, **y** siempre será el id de la tarea en youtrack. El id es el número que viene después de la sigla RKM-XXXX.
 
 Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests y tengamos la tarea aprobada, se ejecuta el siguiente comando:
 
@@ -90,11 +91,20 @@ Para poder seguir trabajando, podemos crear la rama hotfix manualmente:
 El release es un lanzamiento para producción. Se debe realizar solo por los **Team Leaders** o el **CTO**.
 Para preparar un release debe ejecutarse el comando siguiente:
 
-`git hf release start X.Y.Z`
+    git hf release start X.Y.Z
+
+    # Ejemplo:
+    git hf release start 3.19.0
 
 El criterio para aumentar el X o Y debe ser:
 
-Si hay tareas menores, correcciones de errores se debe aumentar el **Y**. Si las tareas son break changes, tareas épicas, o actualizaciones mayores de librerías, módulos o refactor de códigos vitales para la plataforma se debe aumentar el X.
+Si hay tareas menores, correcciones de errores se debe aumentar el **Y**. Si las tareas son break changes, tareas épicas, o actualizaciones mayores de librerías, módulos o refactor de códigos vitales para la plataforma se debe aumentar el X. Z siempre debe resetearse a 0 cuando se hace un release.
 
 Es importante antes de hacer un lanzamiento realizar un `git fetch --all` y posteriormente un `git tag` para identificar los tags que están y revisar cuál es el último que está registrado para tomar la versión apropiada.
 
+Una vez que se hayan hecho las modificaciones necesarias (bump de la versión en nuestro proyecto), debemos hacer un finish al release:
+
+    git hf release finish X.Y.Z
+
+    # Ejemplo:
+    git hf release finish 3.19.0
