@@ -40,6 +40,9 @@ Para inicializar un feature utilizamos el siguiente comando:
 
     git hf feature start XXXX
 
+    # Por ejemplo:
+    git hf feature start RKMB-1342
+
 *¿Quién lo debe hacer?* El developer
 
 donde XXXX corresponde al código de la tarea asignada en youtrack.
@@ -48,7 +51,7 @@ Los pasos que el **QA** debe realizar para finalizar un feature son los siguient
 * Se debe hacer rebase de la rama contra development
 * Si existen conflictos se debe cancelar el rebase y se le avisa al **Developer** que solucione los conflictos.
 * Hacer merge del PR.
-* Se debe finalizar el feature `git hf feature finish XXXX`. 
+* Se debe finalizar el feature `git hf feature finish XXXX`.  Por ejemplo para la rama/tarea RKMB-1342: `git hf feature finish RKMB-1342`
 
 
 #### Hotfix
@@ -62,11 +65,20 @@ Para inicializar un hotfix, ejecutan el siguiente comando:
 
 *¿Quién lo debe hacer?* **El developer**
 
-donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. En el caso de un hotfix, **y** siempre será el id de la tarea en youtrack. El id es el número que viene después de la sigla RKM-XXXX.
+donde x.y.z se refiere a la versión que corresponde de nuestro proyecto. Un hotfix solo modifica el valor z, donde z corresponde al código de la tarea que, por ejemplo si la última versión de la app es `3.1.0` y nuestra tarea tiene código `RKMB-1432`, nuestra hotfix debe ir con la versión `3.1.1432`.
 
-Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests y tengamos la tarea aprobada, se ejecuta el siguiente comando:
+Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests y tengamos la tarea aprobada, debemos verificar cuál es la versión más reciente de la aplicación:
 
-    git hf hotfix finish x.y.z
+    git fetch --tags && git tag --sort=-createordate
+
+Si es que el major(X) o el minor(Y)  de la aplicación cambió, debemos cambiar el nombre de la rama remota y local (puedes ocupar este [comando git](https://github.com/efredz/custom-git-commands/blob/master/git-rename-branch)) para reflejar el cambio. Si es que la versión del branch es 3.16.4323, y el último tag es 3.17.0, debemos modificar el nombre de nuestra rama a 3.17.4323.
+
+Si es que no ha cambiado la versión, podemos proceder a cerrar el feature (sin hacer merge desde github):
+
+    $ git hf hotfix finish x.y.z
+
+    # Ejemplo, para el hotfix 3.1.1432
+    $ git hf hotfix finish 3.1.1432
 
 *¿Quién lo debe hacer?* **El QA**
 
@@ -74,24 +86,26 @@ Una vez que hayamos abierto un PR a master, hayan corrido exitosamente los tests
 
 En el caso de que haya un hotfix ya abierto, la aplicación nos retorna el siguiente mensaje:
 
-    $ git hf hotfix start 1.0.6
+    $ git hf hotfix start 1.0.6232
     Extrayendo origin
     There is an existing hotfix branch (hotfix/1.0.5). Finish that one first
 
 Para poder seguir trabajando, podemos crear la rama hotfix manualmente:
 
-    $ git checkout -b hotfix/1.0.6
+    $ git checkout -b hotfix/1.0.6232
     # Realizamos los cambios
-    $ git push --set-upstream origin hotfix/1.0.6
+    $ git push --set-upstream origin hotfix/1.0.6232
     # Abrimos el PR, esperamos el CR y la aprobación del QA y finalizamos el hotfix como siempre
-    $ git hf hotfix finish 1.0.6
+    $ git hf hotfix finish 1.0.6232
 
 #### Release
 
 El release es un lanzamiento para producción. Se debe realizar solo por los **Team Leaders** o el **CTO**.
 Para preparar un release debe ejecutarse el comando siguiente:
 
-`git hf release start X.Y.Z`
+    git hf release start X.Y.Z
+    # Ejemplo:
+    git hf release start 3.18.0
 
 El criterio para aumentar el X o Y debe ser:
 
