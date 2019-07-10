@@ -11,8 +11,7 @@ Cada sprint tiene, para cada [tribu](teams.md) 2 o 3 objetivos principales que s
 Las tareas deben ser reportadas siguiendo las siguientes reglas:
 
 * Descripción de la tarea general. 
-* Caso de uso en el caso de que la complejidad sea superior a 2
-* Descripción de los planes de prueba que se deben seguir.
+* Descripción de la matriz de prueba que se deben seguir.
 * Listado de PR tanto de app como de API según corresponda.
 * tags que permitan identificarlo (Si no la tiene nosotros debemos agregarlo).
 
