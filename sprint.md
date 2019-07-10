@@ -45,17 +45,16 @@ El siguiente flujo se aplica de la siguiente manera:
 10. Si la tarea está en **Aceptado** puede pasar a producción en cualquier momento.
 
 ### Criticidad 
-[Show-stopper](https://www.notion.so/061602a5ebca49328f2685ff7bd67541)
 
-[Blocker](https://www.notion.so/1a7367a4d016490ba7bd87b5f4ee07c4)
+[Show-stopper](https://www.notion.so/061602a5ebca49328f2685ff7bd67541): Una tarea Showstopper afecta el funcionamiento del usuario final. Se debe resolver **ASAP**
 
-[Critical](https://www.notion.so/ccb8906b2e1242f2b6051cb6d236d331)
+[Blocker](https://www.notion.so/1a7367a4d016490ba7bd87b5f4ee07c4): Un error Blocker afecta a operaciones y su funcionamiento. Solucionado **ASAP**
 
-[Major](https://www.notion.so/7e070f45044c4f6995efd1e63d97aeb2)
+[Critical](https://www.notion.so/ccb8906b2e1242f2b6051cb6d236d331): Un error critical es importante de corregir, pero no afecta el funcionamiento de la plataforma ni de los procesos. Plazo de corrección **2 días**
 
-[Normal](https://www.notion.so/abc89e8046d14fdd8c60d44c097bcfb1)
+[Normal](https://www.notion.so/abc89e8046d14fdd8c60d44c097bcfb1): Errores que tienen impacto normal, que no impide funcionamiento y pero que afectan la confiabilidad de los clientes / usuarios. Plazo de corrección **1 semana**
 
-[Minor](https://www.notion.so/cd2c4892f70c4f5d9ec9c61d58ac17f7)
+[Minor](https://www.notion.so/cd2c4892f70c4f5d9ec9c61d58ac17f7): Errores menores, generalmente estéticos que no afectan el funcionamiento.
 
 ### Complejidad de las tareas.
 
