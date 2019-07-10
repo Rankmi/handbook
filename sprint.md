@@ -33,17 +33,29 @@ En youtrack existen 9 columnas
 El siguiente flujo se aplica de la siguiente manera:
 
 1. Las tareas que se deben abordar están en la columna **Por hacer**. Para tomar una tarea se debe conversar los plazos y prioridades con el project manager correspondiente. A las tareas se les debe asignar la **complejidad**
-2. Una vez definida la tarea que hay que se debe inicializar una tarea según el flujo de [hubflow](hubflow.md). En este punto, para las tareas de complejidad > 2 se debe generar un caso de uso [(Plantilla caso de uso)](https://docs.google.com/document/d/1yTu6NZrQKXBL6oUsSJNfA9hZtPwD8gP9BkEzDVyPz9k/edit). El caso de uso debe ser revisado en conjunto con el project manager y debe ser incluido en la tarea.
+2. Una vez definida la tarea que hay que se debe inicializar una tarea según el flujo de [hubflow](hubflow.md). El caso de uso debe ser revisado en conjunto con el project manager y debe ser incluido en la tarea.
 3. Posteriormente se debe crear una rama que nace desde development. El nombre de la rama debe partir con el identificador único de la tarea, normalmente el formato es **RKM-XXX-descripción-breve-de-la-tarea**
-4. Cuando la tarea está en curso se debe desarrollar
-5. Una vez finalizada se crea un **Pull Request** que debe apuntar a **development** y el card se debe pasar a la columna **Listo**. En esta columna se le debe asignar un code reviwer en la sección correspondiente.
-6. En caso de que se soliciten cambios se debe borrar el tag y se pasa nuevamente a **En curso**. Se repite el proceso de pasar la tarea a **Listo** cuando se ha terminado de hacer los cambios y el **Code review** se vuelve a realizar
+4. Cuando la tarea está en curso se debe desarrollar. Durante esta etapa, se debe escribir y actualizar los casos de prueba que se han realizado para completar el desarrollo además de los casos de prueba que QA debería tomar en consideración para la correcta revisión.
+5. Una vez finalizada se crea un **Pull Request** que debe apuntar a **development** (en el caso de un feature) o **master** en el caso de un **hotfix** y el card se debe pasar a la columna **Para Codereview**. En esta columna se le debe asignar un code reviwer en la sección correspondiente.
+6. En caso de que se soliciten cambios y se pasa nuevamente a **En curso**. Se repite el proceso de pasar la tarea a **Para Codereview** cuando se ha terminado de hacer los cambios el **Code review** se vuelve a realizar.
 6. Cuando el code review se ha realizado y aprobado se debe pasar la tarea a **Pendiente de QA**.
-7. El Analista QA tomará la tarea y la pasará a review.
+7. El Analista QA tomará la tarea y la pasará a **En review**.
 8. En caso de que la tarea sea aceptada se debe pasar a la columna **Aceptado**
 9. En caso contrario se especificará en el **Pull Request** por que ha fallado adjuntando evidencia.
 10. Si la tarea está en **Aceptado** puede pasar a producción en cualquier momento.
 
+### Criticidad 
+[Show-stopper](https://www.notion.so/061602a5ebca49328f2685ff7bd67541)
+
+[Blocker](https://www.notion.so/1a7367a4d016490ba7bd87b5f4ee07c4)
+
+[Critical](https://www.notion.so/ccb8906b2e1242f2b6051cb6d236d331)
+
+[Major](https://www.notion.so/7e070f45044c4f6995efd1e63d97aeb2)
+
+[Normal](https://www.notion.so/abc89e8046d14fdd8c60d44c097bcfb1)
+
+[Minor](https://www.notion.so/cd2c4892f70c4f5d9ec9c61d58ac17f7)
 
 ### Complejidad de las tareas.
 
