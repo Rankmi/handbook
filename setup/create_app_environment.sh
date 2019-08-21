@@ -3,7 +3,8 @@
 cd ~
 echo "Clonando repositorio"
 git clone https://github.com/Rankmi/app.git
-brew install node@10.15.3
+echo "Instalando Nodejs"
+brew install node@10.16.2
 cd app
 echo "Instalando dependencias del proyecto"
 npm install
