@@ -53,7 +53,7 @@ Los pasos que el **QA** debe realizar para finalizar un feature son los siguient
 
 #### Hotfix
 
-El hotfix es una tarea que no debiera tomar más de un día, por lo que deben evitar abrir una rama de hotfix si es que el arreglo va a ser demoroso. Dicho de otra forma sólo los `ShowStopper` o `Blocker` deben ser hotfix.
+El hotfix es una tarea que no debiera tomar más de un día, por lo que deben evitar abrir una rama de hotfix si es que el arreglo va a ser demoroso. Dicho de otra forma sólo los `Critical`, `ShowStopper` o `Blocker` deben ser hotfix.
 
 Para inicializar un hotfix, ejecutan el siguiente comando:
 
